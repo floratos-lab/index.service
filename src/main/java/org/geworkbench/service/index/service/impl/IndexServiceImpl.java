@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class IndexServiceImpl implements IndexService {
 
-	private static final String serverAddress = "http://afdev.c2b2.columbia.edu:9090";
+	private static final String serverAddress = "http://cagridnode.c2b2.columbia.edu:8080/dev";
 
 	/**
 	 * Returns service url string associated with the query
